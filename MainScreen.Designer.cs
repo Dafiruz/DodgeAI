@@ -58,6 +58,8 @@
             this.Name = "DodgeAI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DodgeAI";
+            this.Load += new System.EventHandler(this.DodgeAI_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.DodgeAI_Paint);
             this.ResumeLayout(false);
 
         }
